@@ -85,7 +85,7 @@ Kathleen enjoys reading novels, watching documentaries, k-dramas, and other thri
 
   {
     name: "Nhyssa Adaoag",
-    position: "Tax Accountant",
+    position: "Accountant",
     description:
       `Nhyssa graduated Cum Laude from Southville International School and Colleges in 2022. She is a Certified Tax Technician and brings over three years of professional experience in accounting and finance, complemented by five years as a working student.
 She began her career as an Accounts Associate at South SEED-LPDH College, where she managed accounts payable and receivable, payroll, bookkeeping, bank reconciliation, and tax preparation and filing, while also providing support for financial statement preparation and administrative tasks. Nhyssa later joined Southville International School and Colleges as an Internal Audit Coordinator, supervising operational audits, monitoring statutory compliance, and coordinating with government offices.
