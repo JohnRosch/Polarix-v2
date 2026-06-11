@@ -50,7 +50,7 @@ Interestingly, dyeing her hair blonde has become her unique coping mechanism whe
 
   {
     name: "Sheila Fabellar",
-    position: "Accountant",
+    position: "Senior Accountant",
     description: `Sheila graduated from Southville International School and Colleges in 2021, earning the distinction of Cum Laude. She hold certifications in Bookkeeping NC III and as a Certified QuickBooks User. With over four years of professional experience, she has developed a strong foundation in accounting and financial management through various roles.
 Sheila began her career at Southville International School and Colleges as an Audit Associate, wherein she conducted audits of the company and its affiliates. Following this, she worked as an Accountant at the Asian Association of School HRMD, Inc. Returning to Southville International School and Colleges, she served as an Accounting Associate, preparing journal entries and recording them in the Microsoft Dynamics GP system. She then advanced to the role of Accounting Coordinator, wherein she continued her previous tasks and additionally oversaw and assisted three associates (two AR associates and one Allied Business Unit associate). Her most recent position was the  Acting Accounting Head at Southville International School and Colleges. In this role, she continued her responsibilities from the Accounting Associate and Coordinator positions, prepared reports and schedules for external audits at fiscal year-end.
 Regarding Sheila's hobbies and interests, she loves doing water activities like snorkeling, swimming, and riding water thrill rides. She also enjoys running, reading books, and watching detective movies. Additionally, she is an avid sports enthusiast, playing basketball, volleyball, and badminton. A fun fact about Sheila is that in high school, she was part of the Black Light Theatre Performers, using her hands to create captivating performances.								
@@ -61,7 +61,7 @@ Regarding Sheila's hobbies and interests, she loves doing water activities like 
 
   {
     name: "Kathleen Parreno",
-    position: "Tax Accountant",
+    position: "Senior Tax Accountant",
     description:
       `Kathleen graduated from the National College of Business and Arts - Fairview Branch in 2023. She is a Certified QuickBooks ProAdvisor - Level 1 and 2. With over a year of professional experience, Kathleen has honed her skills in accounting and financial management.
 Her prior working experience includes a four-month stint at UNA Tax and Accounting Services as an Accounting Intern under the Tax and Bookkeeping department. In this role, she supported the team with various audit tasks and client bookkeeping responsibilities, working alongside senior auditors and accountants to ensure accurate financial reporting and compliance.
