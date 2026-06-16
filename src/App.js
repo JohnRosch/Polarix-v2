@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-sans overflow-x-hidden">
         <Navbar />
           <Hero />
             <About />

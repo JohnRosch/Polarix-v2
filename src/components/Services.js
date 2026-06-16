@@ -45,6 +45,10 @@ const services = [
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Others</h3>
+          <p className="text-xs sm:text-sm mb-2 sm:mb-3 leading-relaxed">
+              We offer specialized tax and regulatory filing support for organizations with complex compliance requirements, particularly in the not-for-profit and regulated sectors.
+         </p>
+
           <ul className="list-disc ml-5 sm:ml-6 text-xs sm:text-sm space-y-1 sm:space-y-1.5">
             <li>Form 990</li>
             <li>CHAR500 / CHAR660 (NY State Charities Bureau)</li>
@@ -96,11 +100,9 @@ const services = [
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Attest Services</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">For clients who do not require a full audit, we offer limited assurance services:</p>
+          
           <ul className="list-disc ml-5 sm:ml-6 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
-            <li><span className="font-semibold">Review Engagements</span> – We perform analytical procedures and targeted inquiries to provide limited assurance, with a strong understanding of nonprofit reporting frameworks and financial statement presentation</li>
-            <li><span className="font-semibold">Agreed-Upon Procedures</span> – Targeted procedures based on your specific needs</li>
-            <li><span className="font-semibold">Compilation Services</span> – Assembling financial statements based on information provided (without assurance)</li>
+            <li><span className="font-semibold">Review Engagements</span> – We perform analytical procedures and targeted inquiries to provide limited assurance, with a strong understanding of nonprofit reporting frameworks and financial statement presentation</li>      
           </ul>
         </div>
       </div>
