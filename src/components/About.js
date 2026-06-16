@@ -25,14 +25,26 @@ export default function About() {
           <div data-aos="fade-right">
             <h2 className="text-2xl sm:text-3xl text-green-700 font-bold mb-4 sm:mb-6">Who We Are</h2>
             <p className="mb-4 text-xs sm:text-sm md:text-base leading-relaxed">
-              Polarix Solutions Inc., an affiliate of Caballero & Associates, is a dedicated provider of auditing, 
-              bookkeeping, and taxation services. Based in Manila, we serve as an offshore extension of Caballero & Associates, a reputable CPA Company located in New Jersey, 
-              United States. Our parent Company, Caballero & Associates, has a strong presence in the New York and New Jersey areas, catering to the needs of small and mid-sized organizations.
-              Founded by Alvin Caballero in 2017, Polarix Solutions Inc. was established with the
-              vision of becoming a stable and integral affiliate of Caballero & Associates. We derive our clients from our parent Company, 
-              ensuring seamless and efficient service delivery. Our mission is to support the growth and success of our clients by providing timely, 
-              reliable and high-quality auditing, bookkeeping, and taxation services. As we continue to expand, our goal is to grow in terms of resources and capabilities, 
-              further strengthening our position as a trusted partner for businesses in the New York and New Jersey areas.
+            
+              Polarix Solutions Inc. is a Philippine-based provider of high-quality auditing, bookkeeping, and taxation support services, 
+              serving CPA firms and organizations primarily in the United States. Established in 2017, Polarix was built with the vision of 
+              helping accounting firms scale efficiently by delivering reliable, cost-effective, and technically proficient offshore solutions.
+              <br></br>
+              <br></br>
+              
+              With a strong foundation rooted in U.S. accounting and compliance standards, our team is equipped to seamlessly integrate with 
+              clients’ operations, functioning as a natural extension of their internal teams. While we maintain a strategic affiliation with 
+              Caballero & Associates, a New Jersey-based CPA firm, Polarix has evolved to support a broader network of accounting firms and 
+              businesses seeking dependable offshore talent.
+              Our approach is centered on consistency, accountability, and quality. We work closely with our clients to understand their
+              processes, timelines, and expectations, enabling us to deliver services that are not only accurate and timely but also aligned with 
+              their growth objectives.
+              <br></br>
+              <br></br>
+              
+              As we continue to expand, Polarix remains committed to strengthening our capabilities, investing in our people, and building 
+              long-term partnerships, positioning ourselves as a trusted offshore partner for firms looking to scale with confidence.
+
             </p>
           </div>
           <div data-aos="fade-left">

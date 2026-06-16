@@ -11,26 +11,31 @@ const services = [
   {
     title: "Tax Services (Individuals, Businesses and Not-for-Profit Organizations)",
     description:
-      `Our firm provides specialized offshore support for the preparation of U.S. tax returns for individuals, businesses, and not-for-profit organizations. We focus on delivering accurate, compliant, and timely tax preparation through a team of highly experienced professionals.`,
+      `Our firm provides specialized offshore support for the preparation of U.S. tax returns for individuals, businesses, 
+      and not-for-profit organizations. We focus on delivering accurate, compliant, and timely tax preparation through a team of 
+      highly experienced professionals.`,
     icon: <FaFileInvoiceDollar className="text-6xl text-green-900" />,
     modal: (
       <div className="space-y-3 sm:space-y-4 text-gray-700">
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Individual Tax Returns</h3>
-          <p className="text-xs sm:text-sm mb-2 sm:mb-3 leading-relaxed">We prepare and file federal, state, and local income tax returns for individuals:</p>
+          <p className="text-xs sm:text-sm mb-2 sm:mb-3 leading-relaxed">
+              We deliver accurate, timely, and compliance-driven tax preparation services for individuals, ensuring full alignment with federal, 
+              state, and local regulations. Our team is experienced in handling complex filing scenarios and works as a reliable extension 
+              of CPA firms to meet demanding deadlines without compromising quality.
+          </p>
           <ul className="list-disc ml-5 sm:ml-6 text-xs sm:text-sm space-y-1 sm:space-y-1.5">
             <li>Form 1040</li>
-            <li>Schedule A</li>
-            <li>Schedule B</li>
-            <li>Schedule C</li>
-            <li>Schedule D</li>
-            <li>Schedule E</li>
-            <li>Schedule F</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Business Tax Returns</h3>
+           <p className="text-xs sm:text-sm mb-2 sm:mb-3 leading-relaxed">
+              We provide end-to-end tax preparation support for business entities, helping firms efficiently manage high 
+              volumes while maintaining technical accuracy and regulatory compliance.
+          </p>
+
           <ul className="list-disc ml-5 sm:ml-6 text-xs sm:text-sm space-y-1 sm:space-y-1.5">
             <li>Form 1120 (Corporation)</li>
             <li>Form 1120S (S-Corporation)</li>
@@ -39,10 +44,13 @@ const services = [
         </div>
 
         <div>
-          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Not-for-Profit Tax Filings</h3>
+          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Others</h3>
           <ul className="list-disc ml-5 sm:ml-6 text-xs sm:text-sm space-y-1 sm:space-y-1.5">
             <li>Form 990</li>
             <li>CHAR500 / CHAR660 (NY State Charities Bureau)</li>
+            <li>CRI-200</li>
+            <li>CRI-300R</li>
+            <li>Form 5500</li>
           </ul>
         </div>
       </div>
@@ -52,27 +60,45 @@ const services = [
   {
     title: "Audit & Attest Services",
     description:
-      `Our firm delivers specialized offshore audit support designed to help CPA firms and accounting practices maximize efficiency and maintain the highest standards of quality. We focus on the most critical aspects of the audit process—strategic planning and risk assessment, precise substantive testing, and clear, professional reporting.`,
+      `Our firm delivers specialized offshore audit support designed to help CPA firms and accounting practices maximize 
+      efficiency and maintain the highest standards of quality. We focus on the most critical aspects of the audit 
+      process—strategic planning and risk assessment, precise substantive testing, and clear, professional reporting.`,
     icon: <FaBalanceScale className="text-6xl text-green-900" />,
     modal: (
       <div className="space-y-4 sm:space-y-6 text-gray-700">
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Full Audit Services</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">Our comprehensive audit engagements include:</p>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">
+            We deliver high-quality audit support designed to strengthen assurance, improve transparency, 
+            and help organizations meet regulatory and stakeholder expectations. Our company has developed a strong 
+            specialization in not-for-profit organizations, with deep experience in financial reporting, grant compliance, 
+            and donor-restricted funding structures.
+            <br />
+            <br />
+            Our team understands the complexities of nonprofit environments, including funding accountability, 
+            program-based reporting, and regulatory scrutiny, allowing us to provide meaningful audit support that goes 
+            beyond standard procedures.
+            <br />
+            <br />
+            Our audit procedures include:
+
+          </p>
+
           <ul className="list-disc ml-5 sm:ml-6 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
-            <li><span className="font-semibold">Walkthroughs of Key Processes</span> – Understanding the client's internal controls and operations</li>
-            <li><span className="font-semibold">Risk Assessment Procedures</span> – Identifying areas of potential material misstatement</li>
-            <li><span className="font-semibold">Substantive Testing</span> – Gathering sufficient and appropriate audit evidence</li>
-            <li><span className="font-semibold">Preparation of Financial Statements</span> – Ensuring compliance with applicable accounting standards</li>
+            <li><span className="font-semibold">Walkthroughs of Key Processes</span> –  Evaluating internal controls, operational workflows, and compliance structures, including grant and program-specific controls</li>
+            <li><span className="font-semibold">Risk Assessment Procedures</span> – Identifying areas of material risk, with particular focus on revenue recognition, contributions, grants, and restricted funds</li>
+            <li><span className="font-semibold">Substantive Testing</span> – Performing detailed testing to obtain sufficient and appropriate audit evidence, including grant expenditures and compliance-related transactions</li>
+            <li><span className="font-semibold">Preparation of Financial Statements</span> – Supporting the preparation of financial statements, including nonprofit-specific disclosures and reporting requirements</li>
           </ul>
-          <p className="mt-2 sm:mt-4 italic text-xs sm:text-sm leading-relaxed">We tailor our audit approach to your organization's size, complexity, and industry to deliver meaningful results.</p>
+
+          <p className="mt-2 sm:mt-4 italic text-xs sm:text-sm leading-relaxed">We integrate seamlessly with our clients’ audit teams, enhancing capacity, improving turnaround times, and maintaining consistent audit quality across engagements.</p>
         </div>
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Attest Services</h3>
           <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">For clients who do not require a full audit, we offer limited assurance services:</p>
           <ul className="list-disc ml-5 sm:ml-6 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
-            <li><span className="font-semibold">Review Engagements</span> – Analytical procedures and inquiries to provide limited assurance on financial statements</li>
+            <li><span className="font-semibold">Review Engagements</span> – We perform analytical procedures and targeted inquiries to provide limited assurance, with a strong understanding of nonprofit reporting frameworks and financial statement presentation</li>
             <li><span className="font-semibold">Agreed-Upon Procedures</span> – Targeted procedures based on your specific needs</li>
             <li><span className="font-semibold">Compilation Services</span> – Assembling financial statements based on information provided (without assurance)</li>
           </ul>
@@ -90,24 +116,46 @@ const services = [
       <div className="space-y-4 sm:space-y-6 text-gray-700">
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Compilation Services</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We prepare and present financial information as provided by management:</p>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We deliver high-quality financial statement compilations that go 
+            beyond basic assembly, ensuring clarity, consistency, and decision-useful reporting aligned with applicable accounting standards. 
+            Our team has deep experience supporting not-for-profit organizations, including the presentation of donor-restricted funds, 
+            program-based reporting, and grant-related disclosures.
+            <br />
+            <br />
+            Our compilation services include:
+            </p>
           <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Balance Sheets</li>
             <li>Income Statements</li>
             <li>Cash Flow Statements</li>
-            <li>Other financial reports as needed</li>
+            <li>Customized financial and management reports</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Agreed-Upon Procedures</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">Customized procedures tailored to your specific requirements:</p>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We provide targeted, high-impact agreed-upon procedures designed to 
+            address specific risks, compliance requirements, and operational concerns. Polarix has developed a strong niche in supporting 
+            not-for-profit organizations, particularly those subject to grant funding and regulatory oversight.
+            <br />
+            <br />
+            Our procedures include:  
+          </p>
+
           <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Account reconciliations</li>
             <li>Transaction testing and validation</li>
-            <li>Compliance verification</li>
-            <li>Custom analytical procedures</li>
+            <li>Grant and regulatory compliance verification</li>
+            <li>Customized analytical and investigative procedures</li>
           </ul>
+          <br />
+
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We specialize in indirect cost rate (ICR) assessments and related 
+            procedures, a highly technical and in-demand area for organizations receiving government funding. Our team evaluates cost 
+            classifications, reviews allocation methodologies, and ensures alignment with applicable regulatory frameworks, 
+            helping clients establish defensible cost structures, strengthen compliance, and maximize funding recovery.
+          </p>
+
         </div>
       </div>
     )
@@ -116,13 +164,16 @@ const services = [
   {
     title: "Bookkeeping & Accounting Services",
     description:
-      `Work with us for reliable offshore accounting and bookkeeping solutions that help you save time, reduce costs, and scale effortlessly. We manage everything from day-to-day bookkeeping to financial statement preparation, ensuring accuracy and compliance at every step.`,
+      `We provide reliable and scalable bookkeeping and accounting support designed to help CPA firms and businesses maintain accurate 
+      financial records, improve visibility, and support informed decision-making. Our team has experience supporting a range of industries, 
+      including professional services, not-for-profit organizations, healthcare, and other compliance-driven sectors that require structured, 
+      timely, and reliable financial reporting.`,
     icon: <FaBookOpen className="text-6xl text-green-900" />,
     modal: (
       <div className="space-y-4 sm:space-y-6 text-gray-700">
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Day-to-Day Bookkeeping</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We manage your daily financial transactions, including:</p>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We manage your daily financial transactions with precision and consistency, ensuring your books remain accurate and up to date:</p>
           <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Recording income and expenses</li>
             <li>Reconciling bank and credit card accounts</li>
@@ -132,7 +183,7 @@ const services = [
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Financial Reporting</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We generate accurate and timely reports to support decision-making:</p>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We deliver clear, timely, and decision-ready financial reports to support operational and strategic needs:</p>
           <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Balance Sheets</li>
             <li>Profit &amp; Loss Statements</li>
@@ -142,24 +193,40 @@ const services = [
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">QuickBooks Expertise</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">Our team is highly proficient in QuickBooks Online and Desktop, ensuring:</p>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">Our team is highly proficient in QuickBooks 
+            Online and Desktop, enabling efficient setup, management, and optimization of your accounting systems:</p>
+
           <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Seamless setup and customization</li>
             <li>Efficient data entry and categorization</li>
             <li>Real-time financial tracking and reporting</li>
-            <li>Troubleshooting and optimization for better performance</li>
+            <li>Troubleshooting and system optimization</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Year-End Preparation</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We prepare your books for tax season or audit, including:</p>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We ensure your books are audit- and tax-ready, 
+            reducing bottlenecks and improving turnaround during critical reporting periods:</p>
+
           <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Adjusting journal entries</li>
             <li>Trial balance review</li>
             <li>Coordination with tax preparers or auditors</li>
           </ul>
         </div>
+
+        <div>
+          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Additional Capabilities</h3>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We offer specialized support for more complex accounting needs, 
+            including:</p>
+            
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
+            <li>Grant and contract accounting</li>
+            <li>Cost allocations and methodology support</li>
+          </ul>
+        </div>
+
       </div>
     )
   },

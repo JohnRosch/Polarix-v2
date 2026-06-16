@@ -13,26 +13,23 @@ const teamMembers = [
   {
     name: "Mark Daniel Diwa",
     position: "Managing Director",
-    description: `Mark took up Bachelor of Science in Accountancy and graduated from the Polytechnic University of the Philippines Sta Mesa Branch in 2015. 
-      He passed the Certified Public Accountant Licensure Exam in May 2016 and has been working in the field for almost 10 years.
-      Mark began his career as an Accounting Assistant at Getz Pharmaceuticals, where he was responsible for preparing expense reimbursement forms for medical representatives. 
-      He then transferred to PwC AC Manila, starting out as an Audit Associate. During his tenure at PwC AC Manila, Mark was part of the pilot team for the US Territory. 
-      He was also given the opportunity to be seconded to the PwC Puerto Rico Branch, to be trained specifially for the Cash and Equity Financial
-       Statement Line Items under the Center of Excellence Team. Later on in his career, he was selected to be a part of the audit team for the Australian Territory, 
-       specifically the Extension of Team Senior Pilot Program. Around 2022, he was then assigned to the Industrial Products sector of the United States territory wherein as an Audit Manager
-       , part of his responsibilities included performing manager reviews on the workpapers of offshore and onshore audit associates and senior associates, 
-       conducting touchpoint calls with the engagement team's senior manager, director, and partner, and participating in the performance assessment of his audit staff 
-       during career round table discussions. 
-       In his personal time, Mark enjoys playing basketball and computer games such as DOTA 2. A fun fact about Mark is that he is a dedicated Swiftie.`,
+    description: `
+      Mark earned his Bachelor of Science in Accountancy from the Polytechnic University of the Philippines Sta. Mesa branch in 2015 and passed the CPA Licensure Examination in May 2016. He has developed extensive experience in audit, offshore delivery, and US accounting practices through both leadership and client-facing roles.\n
+      At Polarix, Mark leads the firm’s operations and oversees the delivery of services to CPA firms across the United States. He is actively involved in audit engagements, financial reporting oversight, and process optimization, ensuring consistent quality and efficiency across teams. His experience includes supporting clients in industries such as not-for-profit organizations, professional services, healthcare, and regulated entities, with a strong focus on compliance-driven environments and scalable offshore support. \n
+      Prior to founding Polarix, Mark worked at PwC AC Manila, where he was part of the US audit practice and contributed to global initiatives, including a secondment to PwC Puerto Rico under the Center of Excellence. He later supported US engagements as part of the Australian and US territories, where he performed senior-level reviews, coordinated with onshore teams, and contributed to staff development and performance management. \n
+      Fun Fact: Mark enjoys playing basketball and computer games such as DOTA 2, and is a dedicated Swiftie.
+    `,
+
     image: member1,
   },
   {
     name: "Yle Nicole Ebreo",
     position: "Senior Auditor",
     description:
-      `Yle graduated from Lyceum of Alabang in 2019 as a Dean's Lister. With around five years of professional experience, she has developed a robust skill set in auditing and financial analysis.
-Yle's prior work experience includes a four-year tenure at SGV, where she served as a Senior Associate. In this role, she performed audits for various industries, including retail and merchandising, auto-vehicle dealerships, engineering, schools, hospitals, and listed holding companies.
-In her personal time, Yle loves reading young adult novels and watching series. While she doesn't play online or video games, she enjoys participating in challenging team activities. A fun fact about Yle is that most of her travels are motivated by her love for attending concerts.									
+      `Yle graduated from Lyceum of Alabang in 2019 as a Dean’s Lister and has built a strong foundation in audit and financial reporting across both Philippine and US engagements.\n
+       At Polarix, she plays a key role in supporting US-based audits, particularly for not-for-profit organizations, foundations, and community-based institutions. Her experience includes working with entities involved in education, grant funding, and social impact initiatives, where she performs audit procedures, prepares workpapers, and supports financial statement reviews in accordance with US standards.\n
+       Prior to joining Polarix, Yle worked at SGV as a Senior Associate, handling audits across industries including retail, healthcare, engineering, and listed companies.\n
+       Fun Fact: Many of Yle’s travels are inspired by her love for attending concerts.									
 `,
     image:
       member4,
@@ -41,9 +38,11 @@ In her personal time, Yle loves reading young adult novels and watching series. 
     name: "Chloie Veronica Domingo",
     position: "Senior Auditor",
     description:
-      `Chloie graduated from the Polytechnic University of the Philippines, Sta. Mesa Branch in 2020. With over three years of professional experience, she previously worked at SGV, where she honed her skills in auditing. Her audit experience spans a diverse range of industries, including manufacturing, food and beverages, construction, human resource services, mining, retail, and financing.
-Outside of her professional life, Chloie enjoys playing the acoustic guitar and engaging in sports like swimming and badminton, albeit in a casual manner. A fun fact about Chloie is that she once served as a preacher for small youth groups on college campuses. This role allowed her to build meaningful relationships with young adults, listen to their experiences, and speak to their spiritual and personal journeys through regular gatherings, discussions, and mentorship.
-Interestingly, dyeing her hair blonde has become her unique coping mechanism when dealing with stress.`,
+      `Chloie graduated from the Polytechnic University of the Philippines in 2020 and has developed solid experience in audit engagements across various industries.\n
+       At Polarix, she supports US audit and review engagements for clients including not-for-profit organizations, healthcare providers, professional associations, and fundraising entities. Her responsibilities include performing audit testing, preparing documentation, and supporting engagement deliverables within tight reporting timelines.\n
+       She previously worked at SGV, where she gained exposure to industries such as manufacturing, construction, retail, financing, and human resource services.\n
+       Fun Fact: Chloie enjoys playing the acoustic guitar and previously led small youth groups, mentoring students through discussions and community activities.
+`,
     image:
       member5,
   },
@@ -51,9 +50,11 @@ Interestingly, dyeing her hair blonde has become her unique coping mechanism whe
   {
     name: "Sheila Fabellar",
     position: "Senior Accountant",
-    description: `Sheila graduated from Southville International School and Colleges in 2021, earning the distinction of Cum Laude. She hold certifications in Bookkeeping NC III and as a Certified QuickBooks User. With over four years of professional experience, she has developed a strong foundation in accounting and financial management through various roles.
-Sheila began her career at Southville International School and Colleges as an Audit Associate, wherein she conducted audits of the company and its affiliates. Following this, she worked as an Accountant at the Asian Association of School HRMD, Inc. Returning to Southville International School and Colleges, she served as an Accounting Associate, preparing journal entries and recording them in the Microsoft Dynamics GP system. She then advanced to the role of Accounting Coordinator, wherein she continued her previous tasks and additionally oversaw and assisted three associates (two AR associates and one Allied Business Unit associate). Her most recent position was the  Acting Accounting Head at Southville International School and Colleges. In this role, she continued her responsibilities from the Accounting Associate and Coordinator positions, prepared reports and schedules for external audits at fiscal year-end.
-Regarding Sheila's hobbies and interests, she loves doing water activities like snorkeling, swimming, and riding water thrill rides. She also enjoys running, reading books, and watching detective movies. Additionally, she is an avid sports enthusiast, playing basketball, volleyball, and badminton. A fun fact about Sheila is that in high school, she was part of the Black Light Theatre Performers, using her hands to create captivating performances.								
+    description: 
+      `Sheila graduated Cum Laude from Southville International School and Colleges in 2021 and holds certifications in Bookkeeping NC III and as a Certified QuickBooks User.\n
+       At Polarix, she supports US clients in bookkeeping, financial reporting, and month-end close processes. She has experience handling accounts for professional service firms, multi-entity structures, and healthcare-related businesses. Her work includes maintaining general ledgers, preparing reports, and supporting audit and tax readiness.\n
+       She previously held progressive roles at Southville, where she advanced to Acting Accounting Head and managed accounting operations and audit coordination.\n
+       Fun Fact: Sheila enjoys water activities, running, and was part of a Black Light Theatre group in high school.						
 `,
     image:
       member2,
@@ -63,9 +64,11 @@ Regarding Sheila's hobbies and interests, she loves doing water activities like 
     name: "Kathleen Parreno",
     position: "Senior Tax Accountant",
     description:
-      `Kathleen graduated from the National College of Business and Arts - Fairview Branch in 2023. She is a Certified QuickBooks ProAdvisor - Level 1 and 2. With over a year of professional experience, Kathleen has honed her skills in accounting and financial management.
-Her prior working experience includes a four-month stint at UNA Tax and Accounting Services as an Accounting Intern under the Tax and Bookkeeping department. In this role, she supported the team with various audit tasks and client bookkeeping responsibilities, working alongside senior auditors and accountants to ensure accurate financial reporting and compliance.
-Kathleen enjoys reading novels, watching documentaries, k-dramas, and other thrillers and psychological horror films. She is also a foodie who loves exploring different cuisines. In her free time, she engages in yoga, plays board games, and goes roller skating. A fun fact about Kathleen is that gore, thrills, and horror don’t scare her—she watches them with a poker face.						
+      `Kathleen graduated from the National College of Business and Arts – Fairview in 2023 and is a Certified QuickBooks ProAdvisor (Level 1 and 2).\n
+       At Polarix, she supports US tax and bookkeeping engagements, including preparation of individual and business tax returns. She works with clients in real estate, service-based businesses, and multi-entity structures, assisting in maintaining accurate financial records and ensuring timely compliance.\n
+       She began her career supporting tax and accounting engagements, where she developed hands-on experience in bookkeeping and audit support.\n
+       Fun Fact: Kathleen enjoys thrillers and horror films, and watches them completely unfazed.
+
 `,
     image:
       member3,
@@ -87,10 +90,10 @@ Kathleen enjoys reading novels, watching documentaries, k-dramas, and other thri
     name: "Nhyssa Adaoag",
     position: "Accountant",
     description:
-      `Nhyssa graduated Cum Laude from Southville International School and Colleges in 2022. She is a Certified Tax Technician and brings over three years of professional experience in accounting and finance, complemented by five years as a working student.
-She began her career as an Accounts Associate at South SEED-LPDH College, where she managed accounts payable and receivable, payroll, bookkeeping, bank reconciliation, and tax preparation and filing, while also providing support for financial statement preparation and administrative tasks. Nhyssa later joined Southville International School and Colleges as an Internal Audit Coordinator, supervising operational audits, monitoring statutory compliance, and coordinating with government offices.
-Her early experience as a working student at Southville gave her hands-on exposure to cashiering, payment verification and posting, bank transactions, checking employee advances, and assisting in check requests and disbursement processes—building a strong foundation for her accounting career.
-Outside of work, Nhyssa enjoys creative pursuits and was an active member of the Monarchs Dance Troupe during her college years, performing at school events and internal competitions.							
+      `Nhyssa graduated Cum Laude from Southville International School and Colleges in 2022 and is a Certified Tax Technician. She brings a strong foundation in accounting developed through both academic and hands-on experience.\n
+       At Polarix, she supports US clients in bookkeeping, payroll, reconciliations, and financial reporting. Her experience includes working with educational institutions, not-for-profit organizations, healthcare providers, and small business operations.\n
+       Her background includes roles in accounting and internal audit, where she handled accounts payable and receivable, payroll, tax compliance, and operational audits.\n
+       Fun Fact: Nhyssa enjoys dancing and was an active member of her college dance troupe, performing in events and competitions.							
 `,
     image:
       member7,
@@ -181,7 +184,7 @@ export default function Team() {
             <p className="text-lg font-medium text-gray-600 text-center mb-6">
               {selectedMember.position}
             </p>
-            <p className="text-gray-700 text-justify mb-8">
+            <p className="text-gray-700 text-justify mb-8 whitespace-pre-line">
               {selectedMember.description}
             </p>
             <button
