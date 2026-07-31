@@ -4,7 +4,7 @@ import member2 from "../assets/Sheila.jpg";
 import member3 from "../assets/Kathleen.jpg";
 import member4 from "../assets/Yle.jpg";
 import member5 from "../assets/Chloie.jpg";
-// PANG ABANG FOR NEW MEMBER import member6 from "../assets/Marc.jpg";
+import member6 from "../assets/Reishelle.jpg";
 import member7 from "../assets/nhyssa.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -74,17 +74,6 @@ const teamMembers = [
       member3,
   },
 
-// PANG ABANG FOR THE NEW MEMBER
-//   {
-//     name: "Marc Bien Modelo",
-//     position: "Tax Accountant",
-//     description:
-//       `Bien graduated from the Tanauan Institute in 2018. With around four years of professional experience, he previously worked as a Tax Accountant, where he was responsible for required filings with the Bureau of Internal Revenue (BIR).
-// Bien has a passion for reading self-help books, which reflects his continuous pursuit of personal growth. He also enjoys playing basketball and video games in his leisure time. A fun fact about Bien is that he always remembers the story but not the names of characters or people, whether in movies or real-life experiences.									
-// `,
-//     image:
-//       member6,
-//   },
 
   {
     name: "Nhyssa Adaoag",
@@ -98,6 +87,21 @@ const teamMembers = [
     image:
       member7,
     imagePosition: "object-top"
+  },
+
+
+ 
+  {
+     name: "Reishelle Andres",
+    position: "Tax Accountant",
+    description:
+      `Reishelle graduated from the Philippine School of Business Administration Manila in 2024 and has nearly two years of professional experience in accounting and auditing.\n
+       Prior to joining Polarix Solutions Inc., she worked as an Audit Associate at Philip B. Santos & Co., CPAs, where she gained experience across various industries, including professional services, retail, automotive, and real estate. Her responsibilities included conducting detailed examinations of financial records, ensuring compliance with applicable regulations, performing audit and accounting procedures, and assisting with tax filing requirements.\n
+      With a strong foundation in auditing and financial compliance, Reishelle is committed to delivering accurate, reliable, and high-quality results to support clients' business and reporting needs.\n
+      Fun Fact: Outside of work, Reishelle is a dedicated K-pop fan who loves attending concerts. She is also a self-proclaimed matcha addict and enjoys exploring spicy foods whenever she gets the chance.\n
+ `,
+    image:
+      member6,
   },
   
 ];
